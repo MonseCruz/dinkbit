@@ -2,9 +2,8 @@ import React from "react";
 import Head from "next/head";
 import { AppProps } from "next/app";
 
-// import Navbar from "../components/navbar/navbar";
-// import UIKit from "../components/uikit/";
-import UIKit from "./components/uikit"
+import UIKit from './components/uikit'
+
 
 // Global scss
 /* import "../styles/uikit.scss";

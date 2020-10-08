@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Menu from './components/Menu'
 
 export default function Home() {
   return (
@@ -6,11 +7,17 @@ export default function Home() {
       <Head>
         <title>dinkbit | Hacemos cosas increíbles - Somos tu aliado digital</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+        {/*  UIkit CSS */}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
 
+        {/* UIkit JS */}
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+      </Head>
+      <Menu></Menu>
       <main>
         <h1 className="title">
-          Hola Monse to <a href="https://nextjs.org">Next.js!</a>
+          Hola Monse fff to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className="description">
@@ -55,7 +62,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          
         </a>
       </footer>
 
